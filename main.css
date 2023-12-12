@@ -1,5 +1,47 @@
 /* Your code here */
 
+/*============= Phase 1: Select by id =====================*/
+h1#page-title {
+    font-weight: bold;
+}
+
+/* =================== Phase 2: Select by class name ================= */
+span.pagenum {
+    position: absolute;
+    right: 10px; /* supposede to be 1%, but that didn't work for me */
+    font-size: small;
+}
+
+/* =================== Phase 3: Select by type ================= */
+p {
+    text-align: justify;
+    margin: .75em 0;
+}
+
+pre {
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* ================= Phase 4: Select by state or pseudo-class =============== */
+a:link,
+a:visited {
+    text-decoration: none;
+    /* color: black; */
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+/* ====================== Bonus Phase - Hover state and child combinators ========================== */
+pre > a {
+    color: black;
+}
+
 /* ===== DO NOT EDIT BELOW THIS COMMENT ===== */
 
 .noin {
